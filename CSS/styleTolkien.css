@@ -1,0 +1,237 @@
+body{
+    font-family: arial;
+    background-color:#1C1C1C ;
+    LINE-HEIGHT:25px;
+}
+    
+
+ul.bNav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4F4F4F;
+    width:100%;
+}
+
+ul.bNav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+
+ul.bNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.bNav li a:hover {
+    background-color: white;
+    color:	#00BFFF;
+}
+
+@media screen and (max-width: 600px) {
+    ul.bNav li{float:none}
+    fieldset { min-width: 100%; }
+    img{width: 100%; max-width: 500px;}
+    #beren, #torres,#rei {display: none}
+    #jr{ display: none;}
+    
+
+}
+
+p{
+    font-family: arial;
+    text-align: left;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+
+#tolkien{
+    padding-left: 25px;
+    padding-right:10px;
+    width: 250px;
+    height: 350px;
+}
+
+#biografia{
+    text-align: left;
+    font-family: arial;
+}
+
+#tBiografia{
+
+    text-align: center;
+}
+
+fieldset{
+    width:85%;
+    background-color: white;
+    border: 2px solid #4682B4 ;
+}
+
+#livros{
+    text-align: left;
+    font-family: arial;
+}
+
+#hobbit{
+    width: 280px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.fotos1{
+    display: flex;
+    padding-left: 50px;
+    
+}
+
+#tSilmarillion{
+    text-align: left;
+    font-family: arial;
+}
+
+#ainu{
+    width: 300px;
+    height: 400px;
+    padding-left: 25px;
+}
+
+#tAinu{
+    text-align: left;
+    font-family: arial;
+}
+
+#vala{
+    width: 300px;
+    height: 300px;
+    padding-left: 25px;
+}
+
+#tVala{
+    text-align: left;
+    font-family: arial;
+}
+
+#quenta{
+    width: 300px;
+    height: 400px;
+    padding-left: 25px;
+}
+
+#tQuenta{
+    text-align: left;
+    font-family: arial;
+}
+
+#aka{
+    width: 300px;
+    height: 300px;
+    padding-left: 25px;
+}
+
+#tAka{
+    text-align: left;
+    font-family: arial;
+}
+
+#terceira{
+    width: 300px;
+    height: 400px;
+    padding-left: 25px;
+}
+
+#tTerceira{
+    text-align: left;
+    font-family: arial;
+}
+
+#tContos{
+    text-align: left;
+    font-family: arial;
+}
+
+#fcontos{
+
+    width: 600px;
+    height: 400px;
+}
+
+#beren{
+    width: 300px;
+    height: 300px;
+    padding-left: 25px;
+}
+
+#tBeren{
+    text-align: left;
+    font-family: arial;
+}
+
+.fotos2{
+    display: flex;
+    padding-left: 50px;  
+}
+
+#fcontos, #beren{
+    width: 400px;
+    height: 400px;
+}
+
+#tHobbit{
+    text-align: left;
+    font-family: arial;
+}
+
+.fotos3{
+    display: flex;
+    padding-left: 50px;  
+}
+
+#sociedade, #torres, #rei{
+    
+    width: 280px;
+    height: 500px;
+}
+
+#ulmo{
+    width: 1120px;
+    height: 550px;
+}
+
+#jr{
+   position: absolute;
+   margin-top: -350px;
+   padding-left: 200px;
+   font-size: 100px;
+   color:white;
+   -webkit-text-stroke-width: 2px;  
+   -webkit-text-stroke-color: #4682B4; 
+   font-family: trajan-pro ;
+}
+
+
+img{
+    transition: all 0.5s;
+    cursor: pointer;
+    padding-right:10px;
+}
+
+img:hover{
+    -webkit-filter: drop-shadow(10px 7px 3px rgba(0,0,0,.5));
+    filter: drop-shadow(10px 7px 3px rgba(0,0,0,.5));
+}
+
+#footer{
+ margin: 0 auto;
+ position: absolute; 
+ width: 100%;
+ height: 50px;
+ background-color: #4682B4;
+ color: black;
+ }
